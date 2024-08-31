@@ -8,3 +8,15 @@ th{
 td{
     background-color: blanchedalmond;
 }
+
+div.intro{
+    width:100%;
+    overflow:auto;
+    background-color:#FFC0C7;
+}
+
+div.Contact{
+    width:100%;
+    overflow:auto;
+    background-color:#8a3fd0;
+}
