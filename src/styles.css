@@ -10,13 +10,38 @@ td{
 }
 
 div.intro{
+    margin-top: 5px;
     width:100%;
     overflow:auto;
     background-color:#FFC0C7;
 }
 
 div.Contact{
+    margin-top: 5px;
     width:100%;
     overflow:auto;
     background-color:#8a3fd0;
+}
+
+div.Experience{
+    margin-top: 5px;
+    width:100%;
+    overflow:auto;
+    background-color:#cdfe07;
+}
+
+div.Education{
+    margin-top: 5px;
+    width:100%;
+    Height: 150px;
+    overflow:auto;
+    background-color:#fa0000;
+}
+
+div.Hobbies{
+    margin-top: 5px;
+    width:100%;
+    Height: 150px;
+    overflow:auto;
+    background-color:#00fa4b;
 }
