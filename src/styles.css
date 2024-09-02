@@ -9,25 +9,65 @@ td{
     background-color: blanchedalmond;
 }
 
+div.Education th{
+    background-color: rgb(171, 50, 11);
+}
+
+div.Education td{
+    background-color: rgb(253, 146, 66);
+}
+
+h3, p{
+    color: white;
+}
+
+a{
+    color: rgb(87, 17, 94);
+}
+
+a:hover {
+    color: rgb(237, 24, 70);
+  }
+
+div{
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+div.profile {
+    width:100%;
+    overflow:auto;
+  }
+
+  .profile img{
+    /* width:23%; */
+    float:left;
+    margin-top: 10px;
+  }
+  .profile div {
+    width:33%;
+    float:left;
+  }
+
 div.intro{
     margin-top: 5px;
     width:100%;
     overflow:auto;
-    background-color:#FFC0C7;
+    background-color:rgb(237, 24, 70);
 }
 
 div.Contact{
     margin-top: 5px;
     width:100%;
     overflow:auto;
-    background-color:#8a3fd0;
+    background-color:rgb(230, 46, 248)
 }
 
 div.Experience{
     margin-top: 5px;
     width:100%;
     overflow:auto;
-    background-color:#cdfe07;
+    background-color:rgb(61, 145, 219);
 }
 
 div.Education{
@@ -35,7 +75,7 @@ div.Education{
     width:100%;
     Height: 150px;
     overflow:auto;
-    background-color:#fa0000;
+    background-color:rgb(254, 139, 128);
 }
 
 div.Hobbies{
@@ -43,5 +83,6 @@ div.Hobbies{
     width:100%;
     Height: 150px;
     overflow:auto;
-    background-color:#00fa4b;
+    background-color:rgb(0, 192, 129);
 }
+
