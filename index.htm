@@ -46,7 +46,34 @@
                 <div class="modalBody">
                     <form>
                         <label>Company Name</label>
-                        <input>
+                        <input type="text"><br>
+
+                        <label>Job Description</label>
+                        <textarea name="jobDescription" rows="10" cols="20"></textarea><br>
+
+                        <label>Role:</label><br>
+                        <input type="radio" id="fullTime" name="role" value="Full-Time">
+                        <label for="fullTime">Full-Time</label><br>
+                        <input type="radio" id="partTime" name="role" value="Part-Time">
+                        <label for="partTime">Part-Time</label><br>
+                        <input type="radio" id="contract" name="role" value="Contract">
+                        <label for="contract">Contract</label><br>
+
+                        <label>Shift: </label><br>
+                        <input type="checkbox" id="night" name="night" value="Night">
+                        <label for="night">Night</label><br>
+                        <input type="checkbox" id="day" name="day" value="Day">
+                        <label for="day">Day</label><br>
+
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="Goa">Goa</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
                 <div class="modalFooter">
