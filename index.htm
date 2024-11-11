@@ -20,143 +20,153 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col">
-            <div class="profile" style="background-color: burlywood;">  <!--Inline CSS-->
-                <div>
-                    <img src="res/profile_pic.jpg" alt="Self" height="150" width="100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="profile" style="background-color: burlywood;">  <!--Inline CSS-->
+                    <div>
+                        <img src="res/profile_pic.jpg" class="rounded" alt="Self"  width="100">
+                    </div>
+                    <div>
+                        <h1>Joyston</h1>
+                        <h2>Micky</h2>
+                        <h1>Fernandes</h1>   
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://github.com/joyston" title="Github"><i class="fa fa-github"></i></a>
+                        <a target="_blank" href="https://stackoverflow.com/users/5911998/joyston" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/joyston0094" title="Facebook"><i class="fa fa-facebook-official"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/imjoyston/" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    </div> 
                 </div>
-                <div>
-                    <h1>Joyston</h1>
-                    <h2>Micky</h2>
-                    <h1>Fernandes</h1>   
-                </div>
-                <div>
-                    <a target="_blank" href="https://github.com/joyston" title="Github"><i class="fa fa-github"></i></a>
-                    <a target="_blank" href="https://stackoverflow.com/users/5911998/joyston" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/joyston0094" title="Facebook"><i class="fa fa-facebook-official"></i></a>
-                    <a target="_blank" href="https://www.instagram.com/imjoyston/" title="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="col">
+                <div class="Contact">
+                    <h3>Contact</h3>
+                    <p>+91 9763012106</p>
+                    <a href="mailto:joystonf@gmail.com">joystonf@gmail.com</a>
+                    <button type="button" class="btn btn-dark" id="btnModal">Inbuilt form</button>
+            
+                    <div id="myModal" class="modal">     <!-- Modal -->
+                        <div class="modalContent">
+                            <div class="modalHeader">
+                                <span class="close">&times;</span>
+                                <h2>Reach Out</h2>
+                            </div>
+                            <div class="modalBody">
+                                <form>
+                                    <label>Company Name</label>
+                                    <input type="text"><br>
+            
+                                    <label>Job Description</label>
+                                    <textarea name="jobDescription" rows="10" cols="20"></textarea><br>
+            
+                                    <label>Role:</label><br>
+                                    <input type="radio" id="fullTime" name="role" value="Full-Time">
+                                    <label for="fullTime">Full-Time</label><br>
+                                    <input type="radio" id="partTime" name="role" value="Part-Time">
+                                    <label for="partTime">Part-Time</label><br>
+                                    <input type="radio" id="contract" name="role" value="Contract">
+                                    <label for="contract">Contract</label><br>
+            
+                                    <label>Shift: </label><br>
+                                    <input type="checkbox" id="night" name="night" value="Night">
+                                    <label for="night">Night</label><br>
+                                    <input type="checkbox" id="day" name="day" value="Day">
+                                    <label for="day">Day</label><br>
+            
+                                    <label for="location">Location</label>
+                                    <select id="location" name="location">
+                                        <option value="Goa">Goa</option>
+                                        <option value="Banglore">Banglore</option>
+                                        <option value="Pune">Pune</option>
+                                        <option value="Mumbai">Mumbai</option>
+                                    </select>
+            
+                                    <input type="submit" value="Submit">
+                                </form>
+                            </div>
+                            <div class="modalFooter">
+                                <h3 class="text-center">Thank You</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div> 
             </div>
         </div>
-        <div class="col">
-            <div class="Contact">
-                <h3>Contact</h3>
-                <p>+91 9763012106</p>
-                <a href="mailto:joystonf@gmail.com">joystonf@gmail.com</a>
-                <button id="btnModal">Inbuilt form</button>
-        
-                <div id="myModal" class="modal">     <!-- Modal -->
-                    <div class="modalContent">
-                        <div class="modalHeader">
-                            <span class="close">&times;</span>
-                            <h2>Reach Out</h2>
-                        </div>
-                        <div class="modalBody">
-                            <form>
-                                <label>Company Name</label>
-                                <input type="text"><br>
-        
-                                <label>Job Description</label>
-                                <textarea name="jobDescription" rows="10" cols="20"></textarea><br>
-        
-                                <label>Role:</label><br>
-                                <input type="radio" id="fullTime" name="role" value="Full-Time">
-                                <label for="fullTime">Full-Time</label><br>
-                                <input type="radio" id="partTime" name="role" value="Part-Time">
-                                <label for="partTime">Part-Time</label><br>
-                                <input type="radio" id="contract" name="role" value="Contract">
-                                <label for="contract">Contract</label><br>
-        
-                                <label>Shift: </label><br>
-                                <input type="checkbox" id="night" name="night" value="Night">
-                                <label for="night">Night</label><br>
-                                <input type="checkbox" id="day" name="day" value="Day">
-                                <label for="day">Day</label><br>
-        
-                                <label for="location">Location</label>
-                                <select id="location" name="location">
-                                    <option value="Goa">Goa</option>
-                                    <option value="Banglore">Banglore</option>
-                                    <option value="Pune">Pune</option>
-                                    <option value="Mumbai">Mumbai</option>
-                                </select>
-        
-                                <input type="submit" value="Submit">
-                            </form>
-                        </div>
-                        <div class="modalFooter">
-                            <h3>Thank You</h3>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+    </div>
+    <div class="container-fluid">
+        <div class="intro">
+            <h3>Introduction</h3>
+            <p>Part time Fighter🥊Full time Programmer 🧑‍💻 </p>
         </div>
     </div>
     
-    <div class="intro">
-        <h3>Introduction</h3>
-        <p>Part time Fighter🥊Full time Programmer 🧑‍💻 </p>
+    <div class="container-fluid">
+        <div class="Experience" >
+            <h3>Work Experince</h3>
+            <table  style="width:100%">
+                <tr>
+                    <th style="width:10%">From</th>
+                    <th style="width:10%">To</th>
+                    <th style="width:20%">Designation</th>
+                    <th style="width:45%">Company</th>
+                    <th style="width:15%">Location</th>
+                </tr>
+                <tr style="height:50px">
+                    <td>August 2020</td>
+                    <td>Present</td>
+                    <td>Software Developer</td>
+                    <td>AstrSys.In</td>
+                    <td>Goa</td>
+                </tr>
+                <tr style="height:50px">
+                    <td>Mar 2018</td>
+                    <td>Apr 2018</td>
+                    <td>Software Developer</td>
+                    <td>CodeRun LLP </td>
+                    <td>Goa</td>
+                </tr>
+                <tr style="height:50px">
+                    <td>Dec 2016</td>
+                    <td>Feb 2018</td>
+                    <td>Software Developer</td>
+                    <td>Manuassist Software Pvt. Ltd.</td>
+                    <td>Goa</td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div class="container-fluid">  <!--<div class="container-fluid"></div> -->
-    <div class="Experience" >
-        <h3>Work Experince</h3>
-        <table style="width:100%">
-            <tr>
-                <th style="width:10%">From</th>
-                <th style="width:10%">To</th>
-                <th style="width:20%">Designation</th>
-                <th style="width:45%">Company</th>
-                <th style="width:15%">Location</th>
-            </tr>
-            <tr style="height:50px">
-                <td>August 2020</td>
-                <td>Present</td>
-                <td>Software Developer</td>
-                <td>AstrSys.In</td>
-                <td>Goa</td>
-            </tr>
-            <tr style="height:50px">
-                <td>Mar 2018</td>
-                <td>Apr 2018</td>
-                <td>Software Developer</td>
-                <td>CodeRun LLP </td>
-                <td>Goa</td>
-            </tr>
-            <tr style="height:50px">
-                <td>Dec 2016</td>
-                <td>Feb 2018</td>
-                <td>Software Developer</td>
-                <td>Manuassist Software Pvt. Ltd.</td>
-                <td>Goa</td>
-            </tr>
-        </table>
+    
+    <div class="container-fluid">
+        <div class="Education">
+            <h3>Education</h3>
+            <table class="table-bordered" style="width:100%">
+                <tr>
+                    <th style="width:20%">Year of Completion</th>
+                    <th style="width:30%">Qualification</th>
+                    <th style="width:50%">College</th>
+                </tr>
+                <tr style="height:50px">
+                    <td>2016</td>
+                    <td>B.E. Computer</td>
+                    <td>Don Bosco College of Engineering, Fatorda</td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
-    <div class="Education">
-        <h3>Education</h3>
-        <table style="width:100%">
-            <tr>
-                <th style="width:20%">Year of Completion</th>
-                <th style="width:30%">Qualification</th>
-                <th style="width:50%">College</th>
-            </tr>
-            <tr style="height:50px">
-                <td>2016</td>
-                <td>B.E. Computer</td>
-                <td>Don Bosco College of Engineering, Fatorda</td>
-            </tr>
-        </table>
+    <div class="container-fluid">
+        <div class="Hobbies">
+            <h3>Hobbies</h3>
+            <Ul>
+                <li>Martial Arts</li>
+                <li>Football</li>
+                <li>Video Editing</li>
+                <li>Guitar</li>
+            </ul>
+        </div>
     </div>
-    <div class="Hobbies">
-        <h3>Hobbies</h3>
-        <Ul>
-            <li>Martial Arts</li>
-            <li>Football</li>
-            <li>Video Editing</li>
-            <li>Guitar</li>
-        </ul>
-    </div>
+    
 
     <script src="src/myScript.js"></script>
 </body>
