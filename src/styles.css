@@ -62,8 +62,8 @@ div.Contact{
 
 div.intro{
     padding-left: 5px;
-    border-radius: 10px;
-    margin-top: 5px;
+    /* border-radius: 10px; */
+    /* margin-top: 5px; */
     width:100%;
     overflow:auto;
     background-color:rgb(237, 24, 70);
@@ -71,8 +71,8 @@ div.intro{
 
 div.Experience{
     padding-left: 5px;
-    border-radius: 10px;
-    margin-top: 5px;
+    /* border-radius: 10px; */
+    /* margin-top: 5px; */
     padding-bottom: 5px;
     padding-right: 5px;
     width:100%;
@@ -82,8 +82,8 @@ div.Experience{
 
 div.Education{
     padding-left: 5px;
-    border-radius: 10px;
-    margin-top: 5px;
+    /* border-radius: 10px; */
+    /* margin-top: 5px; */
     padding-right: 5px;
     width:100%;
     Height: 150px;
@@ -93,12 +93,17 @@ div.Education{
 
 div.Hobbies{
     padding-left: 5px;
-    border-radius: 10px;    
-    margin-top: 5px;
+    /* border-radius: 10px;     */
+    /* margin-top: 5px; */
     width:100%;
     Height: 100%;
     overflow:auto;
     background-color:rgb(0, 192, 129);
+}
+
+div.Hobbies h3{
+    color: white;
+    font-family: sans-serif;
 }
 
 * .carousel{

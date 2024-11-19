@@ -10,3 +10,5 @@ To revise web techs: HTML, CSS, Javascript, CSS
 
 Notes:
 -Use "mailto:" in href for mail links
+
+Inspiration from https://www.studiobgz.com/
